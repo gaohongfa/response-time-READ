@@ -36,7 +36,7 @@ var responseTime = require('response-time')
 
 创建一个新的中间件，它记录请求的响应时间，并使其可用于自己的函数。fn参数将被援引为fn(req, res, time)，时间是在毫秒数。
 
-## 代码
+## 四、代码解读
 ```js
 /*!
  * response-time
